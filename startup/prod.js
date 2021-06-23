@@ -5,5 +5,5 @@ const cors = require("cors");
 module.exports = function (app) {
   app.use(helmet());
   app.use(compression());
-  app.use(cors());
+  if (process.env.NODE_ENV === "development") app.use(cors());
 };
