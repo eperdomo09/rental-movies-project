@@ -10,5 +10,5 @@ module.exports = async function () {
     useFindAndModify: false,
     useCreateIndex: true,
   });
-  logger.info(`Connected to ${db}`);
+  logger.info(`Connected to MongoDB...`);
 };
