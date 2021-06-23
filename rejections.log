@@ -1,243 +1,5 @@
 {
   error: Error: FATAL ERROR: jwtPrivateKey is not defined.
-      at module.exports (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\vidly-app\startup\config.js:5:11)
-      at Object.<anonymous> (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\vidly-app\app.js:8:28)
-      at Module._compile (internal/modules/cjs/loader.js:1063:30)
-      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
-      at Module.load (internal/modules/cjs/loader.js:928:32)
-      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
-      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
-      at internal/main/run_main_module.js:17:47,
-  level: 'error',
-  message: 'uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\n' +
-    'Error: FATAL ERROR: jwtPrivateKey is not defined.\n' +
-    '    at module.exports (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\startup\\config.js:5:11)\n' +
-    '    at Object.<anonymous> (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\app.js:8:28)\n' +
-    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
-    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
-    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
-    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
-    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
-    '    at internal/main/run_main_module.js:17:47',
-  stack: 'Error: FATAL ERROR: jwtPrivateKey is not defined.\n' +
-    '    at module.exports (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\startup\\config.js:5:11)\n' +
-    '    at Object.<anonymous> (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\app.js:8:28)\n' +
-    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
-    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
-    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
-    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
-    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
-    '    at internal/main/run_main_module.js:17:47',
-  exception: true,
-  date: 'Fri Dec 04 2020 12:27:48 GMT-0400 (Atlantic Standard Time)',
-  process: {
-    pid: 10360,
-    uid: null,
-    gid: null,
-    cwd: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app',
-    execPath: 'C:\\Program Files\\nodejs\\node.exe',
-    version: 'v14.15.0',
-    argv: [
-      'C:\\Program Files\\nodejs\\node.exe',
-      'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\app.js'
-    ],
-    memoryUsage: {
-      rss: 68214784,
-      heapTotal: 54194176,
-      heapUsed: 32100344,
-      external: 20955436,
-      arrayBuffers: 19410701
-    }
-  },
-  os: { loadavg: [ 0, 0, 0 ], uptime: 72477 },
-  trace: [
-    {
-      column: 11,
-      file: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\startup\\config.js',
-      function: 'module.exports',
-      line: 5,
-      method: 'exports',
-      native: false
-    },
-    {
-      column: 28,
-      file: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\app.js',
-      function: null,
-      line: 8,
-      method: null,
-      native: false
-    },
-    {
-      column: 30,
-      file: 'internal/modules/cjs/loader.js',
-      function: 'Module._compile',
-      line: 1063,
-      method: '_compile',
-      native: false
-    },
-    {
-      column: 10,
-      file: 'internal/modules/cjs/loader.js',
-      function: 'Module._extensions..js',
-      line: 1092,
-      method: '.js',
-      native: false
-    },
-    {
-      column: 32,
-      file: 'internal/modules/cjs/loader.js',
-      function: 'Module.load',
-      line: 928,
-      method: 'load',
-      native: false
-    },
-    {
-      column: 14,
-      file: 'internal/modules/cjs/loader.js',
-      function: 'Module._load',
-      line: 769,
-      method: '_load',
-      native: false
-    },
-    {
-      column: 12,
-      file: 'internal/modules/run_main.js',
-      function: 'Function.executeUserEntryPoint [as runMain]',
-      line: 72,
-      method: 'executeUserEntryPoint [as runMain]',
-      native: false
-    },
-    {
-      column: 47,
-      file: 'internal/main/run_main_module.js',
-      function: null,
-      line: 17,
-      method: null,
-      native: false
-    }
-  ]
-}
-{
-  error: Error: FATAL ERROR: jwtPrivateKey is not defined.
-      at module.exports (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\vidly-app\startup\config.js:5:11)
-      at Object.<anonymous> (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\vidly-app\app.js:8:28)
-      at Module._compile (internal/modules/cjs/loader.js:1063:30)
-      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
-      at Module.load (internal/modules/cjs/loader.js:928:32)
-      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
-      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
-      at internal/main/run_main_module.js:17:47,
-  level: 'error',
-  message: 'uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\n' +
-    'Error: FATAL ERROR: jwtPrivateKey is not defined.\n' +
-    '    at module.exports (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\startup\\config.js:5:11)\n' +
-    '    at Object.<anonymous> (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\app.js:8:28)\n' +
-    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
-    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
-    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
-    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
-    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
-    '    at internal/main/run_main_module.js:17:47',
-  stack: 'Error: FATAL ERROR: jwtPrivateKey is not defined.\n' +
-    '    at module.exports (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\startup\\config.js:5:11)\n' +
-    '    at Object.<anonymous> (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\app.js:8:28)\n' +
-    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
-    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
-    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
-    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
-    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
-    '    at internal/main/run_main_module.js:17:47',
-  exception: true,
-  date: 'Fri Dec 04 2020 12:29:17 GMT-0400 (Atlantic Standard Time)',
-  process: {
-    pid: 13736,
-    uid: null,
-    gid: null,
-    cwd: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app',
-    execPath: 'C:\\Program Files\\nodejs\\node.exe',
-    version: 'v14.15.0',
-    argv: [
-      'C:\\Program Files\\nodejs\\node.exe',
-      'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\app.js'
-    ],
-    memoryUsage: {
-      rss: 67346432,
-      heapTotal: 54194176,
-      heapUsed: 31861176,
-      external: 20952237,
-      arrayBuffers: 19407502
-    }
-  },
-  os: { loadavg: [ 0, 0, 0 ], uptime: 72567 },
-  trace: [
-    {
-      column: 11,
-      file: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\startup\\config.js',
-      function: 'module.exports',
-      line: 5,
-      method: 'exports',
-      native: false
-    },
-    {
-      column: 28,
-      file: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\vidly-app\\app.js',
-      function: null,
-      line: 8,
-      method: null,
-      native: false
-    },
-    {
-      column: 30,
-      file: 'internal/modules/cjs/loader.js',
-      function: 'Module._compile',
-      line: 1063,
-      method: '_compile',
-      native: false
-    },
-    {
-      column: 10,
-      file: 'internal/modules/cjs/loader.js',
-      function: 'Module._extensions..js',
-      line: 1092,
-      method: '.js',
-      native: false
-    },
-    {
-      column: 32,
-      file: 'internal/modules/cjs/loader.js',
-      function: 'Module.load',
-      line: 928,
-      method: 'load',
-      native: false
-    },
-    {
-      column: 14,
-      file: 'internal/modules/cjs/loader.js',
-      function: 'Module._load',
-      line: 769,
-      method: '_load',
-      native: false
-    },
-    {
-      column: 12,
-      file: 'internal/modules/run_main.js',
-      function: 'Function.executeUserEntryPoint [as runMain]',
-      line: 72,
-      method: 'executeUserEntryPoint [as runMain]',
-      native: false
-    },
-    {
-      column: 47,
-      file: 'internal/main/run_main_module.js',
-      function: null,
-      line: 17,
-      method: null,
-      native: false
-    }
-  ]
-}
-{
-  error: Error: FATAL ERROR: jwtPrivateKey is not defined.
       at module.exports (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\rental-movies-proyect\startup\config.js:5:11)
       at Object.<anonymous> (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\rental-movies-proyect\app.js:8:28)
       at Module._compile (internal/modules/cjs/loader.js:1063:30)
@@ -267,9 +29,9 @@
     '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
     '    at internal/main/run_main_module.js:17:47',
   exception: true,
-  date: 'Wed Mar 24 2021 16:13:39 GMT-0400 (Atlantic Standard Time)',
+  date: 'Fri Jun 18 2021 12:24:07 GMT-0400 (Atlantic Standard Time)',
   process: {
-    pid: 16136,
+    pid: 15528,
     uid: null,
     gid: null,
     cwd: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect',
@@ -280,14 +42,14 @@
       'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js'
     ],
     memoryUsage: {
-      rss: 68567040,
+      rss: 73404416,
       heapTotal: 54456320,
-      heapUsed: 32508112,
-      external: 20968621,
-      arrayBuffers: 19423886
+      heapUsed: 32970328,
+      external: 20970251,
+      arrayBuffers: 19425516
     }
   },
-  os: { loadavg: [ 0, 0, 0 ], uptime: 1575 },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 170909 },
   trace: [
     {
       column: 11,
@@ -386,9 +148,9 @@
     '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
     '    at internal/main/run_main_module.js:17:47',
   exception: true,
-  date: 'Wed Mar 24 2021 16:17:21 GMT-0400 (Atlantic Standard Time)',
+  date: 'Fri Jun 18 2021 12:24:35 GMT-0400 (Atlantic Standard Time)',
   process: {
-    pid: 12808,
+    pid: 17944,
     uid: null,
     gid: null,
     cwd: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect',
@@ -399,14 +161,371 @@
       'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js'
     ],
     memoryUsage: {
-      rss: 68685824,
-      heapTotal: 54456320,
-      heapUsed: 32972440,
-      external: 20963628,
-      arrayBuffers: 19418893
+      rss: 73211904,
+      heapTotal: 54194176,
+      heapUsed: 32712856,
+      external: 20978443,
+      arrayBuffers: 19433708
     }
   },
-  os: { loadavg: [ 0, 0, 0 ], uptime: 1797 },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 170937 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\startup\\config.js',
+      function: 'module.exports',
+      line: 5,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: Error: FATAL ERROR: jwtPrivateKey is not defined.
+      at module.exports (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\rental-movies-proyect\startup\config.js:5:11)
+      at Object.<anonymous> (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\rental-movies-proyect\app.js:8:28)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\n' +
+    'Error: FATAL ERROR: jwtPrivateKey is not defined.\n' +
+    '    at module.exports (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\startup\\config.js:5:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js:8:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'Error: FATAL ERROR: jwtPrivateKey is not defined.\n' +
+    '    at module.exports (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\startup\\config.js:5:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js:8:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Fri Jun 18 2021 12:24:43 GMT-0400 (Atlantic Standard Time)',
+  process: {
+    pid: 10392,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.15.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js'
+    ],
+    memoryUsage: {
+      rss: 74055680,
+      heapTotal: 54980608,
+      heapUsed: 32976504,
+      external: 20995663,
+      arrayBuffers: 19437069
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 170944 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\startup\\config.js',
+      function: 'module.exports',
+      line: 5,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: Error: FATAL ERROR: jwtPrivateKey is not defined.
+      at module.exports (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\rental-movies-proyect\startup\config.js:5:11)
+      at Object.<anonymous> (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\rental-movies-proyect\app.js:8:28)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\n' +
+    'Error: FATAL ERROR: jwtPrivateKey is not defined.\n' +
+    '    at module.exports (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\startup\\config.js:5:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js:8:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'Error: FATAL ERROR: jwtPrivateKey is not defined.\n' +
+    '    at module.exports (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\startup\\config.js:5:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js:8:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Fri Jun 18 2021 12:25:07 GMT-0400 (Atlantic Standard Time)',
+  process: {
+    pid: 6716,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.15.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js'
+    ],
+    memoryUsage: {
+      rss: 73433088,
+      heapTotal: 54456320,
+      heapUsed: 32735680,
+      external: 20970251,
+      arrayBuffers: 19425516
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 170968 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\startup\\config.js',
+      function: 'module.exports',
+      line: 5,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: Error: FATAL ERROR: jwtPrivateKey is not defined.
+      at module.exports (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\rental-movies-proyect\startup\config.js:5:11)
+      at Object.<anonymous> (C:\Users\Erardo Perdomo\OneDrive\Documentos\JavaScript Courses Proyects\NodeJS Mosh\rental-movies-proyect\app.js:8:28)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\n' +
+    'Error: FATAL ERROR: jwtPrivateKey is not defined.\n' +
+    '    at module.exports (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\startup\\config.js:5:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js:8:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'Error: FATAL ERROR: jwtPrivateKey is not defined.\n' +
+    '    at module.exports (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\startup\\config.js:5:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js:8:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Fri Jun 18 2021 12:26:16 GMT-0400 (Atlantic Standard Time)',
+  process: {
+    pid: 17812,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.15.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Erardo Perdomo\\OneDrive\\Documentos\\JavaScript Courses Proyects\\NodeJS Mosh\\rental-movies-proyect\\app.js'
+    ],
+    memoryUsage: {
+      rss: 73318400,
+      heapTotal: 53932032,
+      heapUsed: 32865928,
+      external: 20962059,
+      arrayBuffers: 19417324
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 171037 },
   trace: [
     {
       column: 11,
