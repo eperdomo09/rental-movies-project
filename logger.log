@@ -1,24 +1,2 @@
-{ message: 'Listening on port 3000', level: 'info' }
-{ message: 'Connected to mongodb://localhost/vidlydb', level: 'info' }
-{ message: 'Listening on port 3000', level: 'info' }
-{
-  message: 'Connected to mongodb://localhost/vidlydb_tests',
-  level: 'info'
-}
-{ message: 'Listening on port 3000', level: 'info' }
-{
-  message: 'Connected to mongodb://localhost/vidlydb_tests',
-  level: 'info'
-}
-{ message: 'Listening on port 3000', level: 'info' }
-{
-  message: 'Connected to mongodb://localhost/vidlydb_tests',
-  level: 'info'
-}
-{ message: 'Listening on port 3000', level: 'info' }
-{
-  message: 'Connected to mongodb://localhost/vidlydb_tests',
-  level: 'info'
-}
-{ message: 'Listening on port 3000', level: 'info' }
+{ message: 'Listening on port 3900', level: 'info' }
 { message: 'Connected to mongodb://localhost/vidlydb', level: 'info' }
